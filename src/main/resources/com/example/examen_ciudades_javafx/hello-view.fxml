@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="628.0" prefWidth="929.0" spacing="20.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.examen_ciudades_javafx.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <BorderPane prefHeight="502.0" prefWidth="889.0">
+         <left>
+            <ListView fx:id="listview" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </left>
+         <center>
+            <Pane fx:id="pane" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fx:id="imgview" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+               </children></Pane>
+         </center>
+         <top>
+         
+             <Label fx:id="welcomeText" BorderPane.alignment="CENTER" />
+         </top>
+         <bottom>
+            <HBox alignment="CENTER" prefHeight="32.0" prefWidth="889.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="btn_Viajar" mnemonicParsing="false" onAction="#btnViajarOnClick" prefHeight="25.0" prefWidth="82.0" text="Viajar">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Button>
+                   <Button fx:id="btn_limpiarEstilo" onAction="#limpiarEstiloOnClick" text="Limpiar Estilo">
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="btn_asignarEstilo" mnemonicParsing="false" onAction="#asignarEstiloOnClick" text="Asignar Estilo">
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+            </HBox>
+         </bottom>
+      </BorderPane>
+   </children>
+</VBox>
