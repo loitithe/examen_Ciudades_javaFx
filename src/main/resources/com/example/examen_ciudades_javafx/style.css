@@ -1,0 +1,75 @@
+.root{
+        -fx-font-size: 14px;
+        -fx-background-color:#fbc8f;
+}
+/* Estilos para los botones dentro del HBox */
+Button {
+    -fx-margin: 30.0;
+    -fx-background:red;
+}
+.button {
+    -fx-font-size: 12px;
+}
+
+.button:hover{
+    -fx-background-color:#8fbc8f;
+    -fx-text-fill:white;
+}
+#estilo3_clase{
+    -fx-text-fill: brown;
+}
+
+.mi_clase_estilo1{
+    -fx-text-fill: #ffa500;
+    -fx-font-size: 20px;
+    -fx-background-color:#ee82ee;
+}
+/* style.css */
+
+/* Estilos para el VBox */
+VBox {
+    -fx-alignment: center;
+    -fx-pref-height: 628.0;
+    -fx-pref-width: 929.0;
+    -fx-spacing: 20.0;
+}
+
+/* Estilos para el BorderPane */
+BorderPane {
+    -fx-pref-height: 502.0;
+    -fx-pref-width: 889.0;
+}
+
+/* Estilos para el ListView */
+#listview {
+    -fx-pref-height: 200.0;
+    -fx-pref-width: 200.0;
+}
+
+/* Estilos para el Pane */
+#pane {
+    -fx-pref-height: 200.0;
+    -fx-pref-width: 200.0;
+}
+
+/* Estilos para el ImageView */
+#image {
+    -fx-fit-height: 150.0;
+    -fx-fit-width: 200.0;
+    -fx-pick-on-bounds: true;
+    -fx-preserve-ratio: true;
+}
+
+/* Estilos para el HBox en la parte inferior */
+HBox {
+    -fx-alignment: center;
+    -fx-pref-height: 32.0;
+    -fx-pref-width: 889.0;
+}
+
+
+
+/* Estilo específico para el botón 'Limpiar Estilo' */
+#btn_limpiarEstilo {
+    -fx-margin: 20.0;
+}
